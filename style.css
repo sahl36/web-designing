@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 115px;
+    background-color: #040E50;
+    display: flex;
+    
+}
+.container{
+    height: 114px;
+}
+.navbar-logo{
+    height: 100px;
+    width: 230px;
+    padding: 10px;
+    border-left: 20px;
+    position: relative;
+    left: 276px;
+    display: block;
+}
+.logo{
+    
+    background-image: url(omanchips.jpg);
+    height: 100px;
+    width: 150px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.navbar-selection{
+    width: auto;
+    display: flex ;
+    height: 120px;
+    float: right;
+    align-items: center;
+    align-content: center;
+}
+.navelemnt{
+    color: #ffffff;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 13px;
+}
+.container{
+    width: 869px ;
+}
+.fa-solid {
+    color: #ffffff;
+}
+.gradientbackground{
+    background: linear-gradient(to bottom, #23228f, #f00100,#f00);
+
+    height: 689px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.packet{
+    height: 576px;
+    width: 419px;
+    padding: 16px;
+    position: absolute;
+    left: 180px;
+    top: 170px;
+}
+.gradienttextandbuttoncontainer{
+    height: 619px;
+    width: 699px;
+    left: 643px;
+    position: absolute;
+}
+.gradienttext{
+
+    color: #FFFFFF;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 83px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+    padding: 198px 0px 0px 0px
+}
+.button{
+    background-color: #040E50;
+    border: none;
+    font-family: "Proxima Nova", Sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 24px;
+    padding: 13px 22px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #5f0000;
+    text-align: center;
+    display: block;
+    margin: auto
+    
+}
+.buttoncontainer{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 23px;
+}
+.animatingdiv{
+    height: 761px;
+    width: 1081.2px;
+    background-color: #FDF3F3;
+    padding: 107px 218px 0px;
+
+}
+.animatingtextwrapper{
+    height: 634px;
+    width: 560px;
+    padding: 0pc 50px 0px 14px;
+}
+.animatedtexthead{
+    color: #040E50;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.animatedsecondtext{
+    color: #040E50;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 15px;
+    z-index: 9;
+    margin-left: 26px;
+   
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.animatedpacket{
+    position: absolute;
+    height: 457px;
+    width: 558px;
+    margin-top: -724px;
+    margin-left: 559px
+
+}
+.animatedpowder{
+    width: 610px;
+    height: 385px;
+    margin-top: -115px;
+}
+.topthirdelements{
+    padding: 50px 0px 100px;
+    height: 772.9px;
+    width: 1519.2px;
+     
+
+}
+.elementcardtextwrapper{
+    height: 769.9px;
+    width: 1140px;
+    margin-left: 183px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.textblock{
+    height: 180px;
+    width: 114px;
+    
+}
+.cardshead{
+    height: 180px;
+    width: 904.38px;
+    
+}
+.cardblock{
+    height: 477.7px;
+    width: 1170px;
+}
+.discoverblock{
+    height: 62.2px;
+    width: 1140px;
+    padding: 50px 0px 0px;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.cardtext{
+    color: #C4000B;
+    font-family: "Spicy Rice", Sans-serif;
+    font-size: 3.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 80px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+
+
+
+
+.card {
+    width: 292px;
+    border: 0px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 9px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    float: left;
+}
+
+
+.card-img {
+    width: 91%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+
+.card-content {
+    padding: 20px;
+    text-align: start;
+}
+
+
+.category {
+    color: #040E50;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1
+}
+
+
+.title {
+    font-size: 18px;
+    color: #040E50; /* Darker text for title */
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1A1A1A; /* Same dark color as title */
+    margin-bottom: 15px;
+}
+
+
+.btn {
+    background-color: #fff;
+    color: #1A1A1A;
+    padding: 8px 7px;
+    border: 2px solid #c4000b;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 15px;
+}
+
+
+.btn:hover {
+    background-color: #c4000b;
+    color: #FFD01E;
+}
+.title:hover{
+    color: #dc9a0e;
+}
+.btn1{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    fill: #C4000B;
+    color: #C4000B;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #C4000B;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px 50px 12px 50px
+}
+.btn1:hover{
+    background-color: #c4000b;
+    color: #FFD01E;
+    transition: background-color 0.6s;
+}
+.topfourthelement{
+    height: 554.5px;
+    width: 1519.2px;
+    background-color: #FDF3F3;
+    padding: 40px 0px 70px;
+}
+.fourthelementcontainer{
+    height: 531.5px;
+    width: 1120px;
+    
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.fourthtextbuttonconataine{
+    height: 529.5px;
+    width: 572px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fourthhead{
+    color: #D91414;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.fourthsecondtext{
+    color: #040E50;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.price{
+
+    color: #D91414;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+}
+.fourthseconddescriptiontext{
+    color: #040E50;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px
+}
+.btn2{
+
+    background-color: #E30613; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-align: center;
+}
+.fourthtexthead{
+    padding: 0px 0px 10px;
+}
+.fourthsecondtext{
+    padding:0px 0px 10px ;
+}
+.fourthseconddescription{
+    margin: 0px 0px 28.8px;
+}
+.wholesale5thelements{
+    width: 1519.2px;
+    height: 666px;
+    padding: 40px 0px 70px;
+    background-color: #FDF3F3;
+    
+
+}
+.sellimagecontainer{
+    width: 1120px;
+    height: 536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+}
+.marketsixthelements{
+    width: 1519.2px;
+    height: 651.21px;
+    padding: 40px 0px 70px;
+    background-color: #FDF3F3;
+}
+.marketsixthelementcontainer{
+    width: 1140px;
+    height: 541.21px;
+    padding: 10px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.marketsiximage{
+    width: 532.21px;
+    height: 516.21px;
+}
+.marketsixthtexts{
+    width: 583.23px;
+    height:516.21px;
+
+}
+.footer{
+    width: 1519.2px;
+    height: 446px;
+    background-color: #040E50;
+    padding: 100px 0px 20px;
+}
+.footerheadtext{
+    color: #FFFFFF;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+}
+.footer2textconatiner{
+    width: 1519.2px;
+    height: 29px;
+    padding: 10px 0px 0px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 34px;
+}
+
+.email-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 258px;
+    height: 37px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+}
+
+.subscribe-button {
+    padding: 19px 19px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #c4000b;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5px;
+}
+.footertextbox{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.fa-instagram{
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: #1a1c43;
+    font-size: 17px;
+    text-align: center;
+    padding: 15px;
+}
+.instagracircle{
+    background-color: #ffffff;
+    border-radius: 138%;
+    width: 47px;
+    height: 46px;
+}
+.instagramiconcontainer{
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+    padding: 10px 0px 40px;
+}
+.instagracircle:hover{
+    background-color: #c4000b;
+    color: red;
+    transition: background-color 0.6s;
+}
+.fa-instagram:hover{
+    color: #f3f3f3;
+}
+.fa-brands, .fab {
+    font-weight: 300;
+}
+.elementdivider{
+    width: 92%;         
+    height: 1px;        
+    background-color: #ccc;  
+    margin-left: 109px;
+}
+.footertademark{
+    width: 1519px;
+    height: 49px;
+    padding: 20px 0px 0px;
+    text-align: center;
+    
+}
+.trademarktext{
+color: #FAF5F0;
+font-family: "Proxima Nova", Sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+}
+.nakedchips{
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -221px
+}
